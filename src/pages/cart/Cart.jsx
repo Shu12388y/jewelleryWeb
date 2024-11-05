@@ -5,36 +5,35 @@ import Navbar from "../../_components/Navbar";
 import { useEffect, useState } from "react";
 
 function Cart() {
-  const { cart, clearCart} = useCartStore();
+  const { cart, clearCart } = useCartStore();
   const [totalPrice, setTotalPrice] = useState(0);
 
-  // Update total price whenever cart items or quantities change
   useEffect(() => {
     const calculatedTotal = cart.reduce((acc, item) => acc + item.price * item.quantity, 0);
     setTotalPrice(calculatedTotal);
   }, [cart]);
 
-  
-
   return (
-    <div className="px-8">
-      <div className="px-4">
+    <div className="px-4 sm:px-8">
+      <div className="px-2 sm:px-4">
         <Navbar />
       </div>
       <div className="pt-10">
         {cart.length === 0 ? (
           <p className="text-center text-lg">No items in the cart</p>
         ) : (
-          cart.map((ele, index) => (
-            <CartCard
-              key={ele.id || index}
-              img={ele.img}
-              title={ele.title}
-              price={ele.price}
-              id={ele.id}
-              quantity={ele.quantity}
-            />
-          ))
+          <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-1 gap-4">
+            {cart.map((ele, index) => (
+              <CartCard
+                key={ele.id || index}
+                img={ele.img}
+                title={ele.title}
+                price={ele.price}
+                id={ele.id}
+                quantity={ele.quantity}
+              />
+            ))}
+          </div>
         )}
       </div>
 

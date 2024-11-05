@@ -55,7 +55,7 @@ function Product() {
         </select>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6 overflow-x-hidden">
         {filteredProducts.length > 0 ? (
           filteredProducts.map((ele, index) => (
             <div key={index} className="flex justify-center">

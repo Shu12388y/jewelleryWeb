@@ -37,12 +37,12 @@ function CartCard({ img, title, quantity, price, id }) {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center p-4">
+    <div className="flex flex-col items-center justify-center p-4  max-w-md mx-auto w-full">
       <Toaster />
-      <div className="card card-side bg-base-100 shadow-lg rounded-lg overflow-hidden w-full max-w-lg">
-        <figure className="flex-shrink-0">
+      <div className="card card-side bg-base-100 shadow-lg rounded-lg overflow-hidden w-full">
+        <figure className="flex-shrink-0 w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48">
           <img
-            className="w-[15rem] h-[15rem] object-contain"
+            className="w-full h-full object-contain"
             src={img}
             alt={title}
           />
