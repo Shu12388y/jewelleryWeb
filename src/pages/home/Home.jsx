@@ -12,7 +12,8 @@ function Home() {
   useEffect(() => {
     const handleScroll = () => {
       const currentScrollY = window.scrollY;
-      if (currentScrollY > 4300) {
+      console.log(currentScrollY)
+      if (currentScrollY > 5000) {
         setAnimateClass("w-[80rem] h-full");
         if (videoRef.current) {
           videoRef.current.play();
