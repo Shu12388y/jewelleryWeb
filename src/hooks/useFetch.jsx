@@ -2,7 +2,7 @@ import axios from "axios";
 import { useState,useEffect } from "react";
 
 
-export const useFetch = ({path})=>{
+export const useFetch = (path)=>{
     const [data,setData] = useState([]);
     const [error,setError] = useState('error')
     useEffect(()=>{
