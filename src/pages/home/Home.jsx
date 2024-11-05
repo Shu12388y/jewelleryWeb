@@ -67,8 +67,13 @@ function Home() {
           ))}
         </div>
 
+          <div className="pt-24 px-4">
+            <h1 className="text-2xl font-semibold">Shop Now</h1>
+            <Carousel/>
+          </div>
+        
         {/* Promo Section */}
-        <div className="flex flex-col md:flex-row items-center justify-center gap-4 mt-10 px-4">
+        <div className="flex flex-col md:flex-row items-center justify-center gap-4 mt-3 px-4">
           <img src="/OLD-GOLD_.png" alt="Old Gold" className="w-full md:w-1/3" />
           <div className="text-left">
             <h2 className="text-2xl md:text-3xl font-medium pb-3">A Stylish Upgrade</h2>

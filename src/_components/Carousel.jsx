@@ -9,7 +9,7 @@ function Carousel() {
             <img
               src="/JE04059-YGP900_1_lar.jpg"
               alt="Burger"
-              className="w-[20rem] h-[30rem]"
+              className="w-[20rem] h-[30rem] object-contain"
             />
             <div>Rs 23,678</div>
           </div>
@@ -19,7 +19,7 @@ function Carousel() {
             <img
               src="/JR05177-WGP600_1_lar.jpg"
               alt="Burger"
-              className="w-[20rem] h-[30rem]"
+              className="w-[20rem] h-[30rem] object-contain"
             />
             <div>Rs 23,678</div>
           </div>
@@ -29,7 +29,7 @@ function Carousel() {
             <img
               src="/JS00790-1YP900_1_lar.jpg"
               alt="Burger"
-              className="w-[20rem] h-[30rem]"
+              className="w-[20rem] h-[30rem] object-contain"
             />
             <div>Rs 23,678</div>
           </div>
@@ -39,7 +39,7 @@ function Carousel() {
             <img
               src="/JT01957-YGP900_1_lar.jpg"
               alt="Burger"
-              className="w-[20rem] h-[30rem]"
+              className="w-[20rem] h-[30rem] object-contain"
             />
             <div>Rs 23,678</div>
           </div>
@@ -49,7 +49,7 @@ function Carousel() {
             <img
               src="/JE04059-YGP900_1_lar.jpg"
               alt="Burger"
-              className="w-[20rem] h-[30rem]"
+              className="w-[20rem] h-[30rem] object-contain"
             />
             <div>Rs 23,678</div>
           </div>
@@ -59,7 +59,7 @@ function Carousel() {
             <img
               src="/JE04059-YGP900_1_lar.jpg"
               alt="Burger"
-              className="w-[20rem] h-[30rem]"
+              className="w-[20rem] h-[30rem] object-contain"
             />
             <div>Rs 23,678</div>
           </div>
