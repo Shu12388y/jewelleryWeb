@@ -46,7 +46,7 @@ function Navbar() {
               </li>
             </ul>
           </div>
-          <img src="public\Logo_100.gif" className="w-14 h-14 pl-4" alt="" />
+          <img src="/Logo_100.gif" className="w-14 h-14 pl-4" alt="" />
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">

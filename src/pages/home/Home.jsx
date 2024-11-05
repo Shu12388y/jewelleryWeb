@@ -50,26 +50,26 @@ function Home() {
         </div>
         <div className="w-full aspect-video animate__animated animate__backInUp">
           <video className="w-full h-full object-cover" autoPlay loop muted>
-            <source src="public/9324842-hd_1366_720_25fps.mp4" type="video/mp4" />
+            <source src="/9324842-hd_1366_720_25fps.mp4" type="video/mp4" />
           </video>
         </div>
 
         {/* Collection Images Section */}
         <div className="flex flex-col md:flex-row justify-center gap-4 mt-4">
-          <img src="public\Collection_disney_11.jpg" alt="Disney Collection" className="w-full md:w-1/2 h-auto" />
-          <img src="public\Collection_Harry_potter.jpg" alt="Harry Potter Collection" className="w-full md:w-1/2 h-auto" />
+          <img src="/Collection_disney_11.jpg" alt="Disney Collection" className="w-full md:w-1/2 h-auto" />
+          <img src="/Collection_Harry_potter.jpg" alt="Harry Potter Collection" className="w-full md:w-1/2 h-auto" />
         </div>
 
         {/* Product Images Grid */}
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4 pt-10 px-4">
           {['Desktop_1.jpg', 'Desktop_2.jpg', 'Desktop_3.jpg', 'Desktop_4.jpg', 'Desktop_5.jpg', 'Desktop_6.jpg'].map((img, index) => (
-            <img key={index} src={`public/${img}`} alt={`Desktop ${index + 1}`} className="w-full h-auto" />
+            <img key={index} src={`/${img}`} alt={`Desktop ${index + 1}`} className="w-full h-auto" />
           ))}
         </div>
 
         {/* Promo Section */}
         <div className="flex flex-col md:flex-row items-center justify-center gap-4 mt-10 px-4">
-          <img src="public/OLD-GOLD_.png" alt="Old Gold" className="w-full md:w-1/3" />
+          <img src="/OLD-GOLD_.png" alt="Old Gold" className="w-full md:w-1/3" />
           <div className="text-left">
             <h2 className="text-2xl md:text-3xl font-medium pb-3">A Stylish Upgrade</h2>
             <p className="pb-5">
@@ -83,7 +83,7 @@ function Home() {
 
         {/* Background Promo Section */}
         <div className="bg-purple-950 py-10 mt-10 px-4 text-center">
-          <img src="public/c656a495c4564a4c8ac8a1f5dee414bd.png" alt="Craftsmanship Image" className="mx-auto mb-5" />
+          <img src="/c656a495c4564a4c8ac8a1f5dee414bd.png" alt="Craftsmanship Image" className="mx-auto mb-5" />
           <p className="text-slate-400">
             The highest quality of craftsmanship and innovation that bring you modern, everyday design.
           </p>
@@ -97,12 +97,12 @@ function Home() {
             <p className="text-xl font-light">#MYCaratLaneStory</p>
           </div>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-4 px-4 mt-5">
-            <img src="public/1.jpg" alt="Instagram 1" className="w-full h-[25rem] " />
-            <img src="public/2.jpg" alt="Instagram 2" className="w-full h-[25rem]" />
-            <img src="public/3.jpg" alt="Instagram 3" className="w-full h-[25rem]" />
-            <img src="public/4.jpg" alt="Instagram 4" className="w-full h-[25rem]" />
-            <img src="public/5.jpg" alt="Instagram 5" className="w-full h-[25rem]" />
-            <img src="public/6.jpg" alt="Instagram 6" className="w-full h-[25rem]" />
+            <img src="/1.jpg" alt="Instagram 1" className="w-full h-[25rem] " />
+            <img src="/2.jpg" alt="Instagram 2" className="w-full h-[25rem]" />
+            <img src="/3.jpg" alt="Instagram 3" className="w-full h-[25rem]" />
+            <img src="/4.jpg" alt="Instagram 4" className="w-full h-[25rem]" />
+            <img src="/5.jpg" alt="Instagram 5" className="w-full h-[25rem]" />
+            <img src="/6.jpg" alt="Instagram 6" className="w-full h-[25rem]" />
           </div>
         </div>
 
@@ -154,29 +154,12 @@ function Home() {
             muted
           >
             <source
-              src="public/9511253-hd_1366_720_25fps.mp4"
+              src="9511253-hd_1366_720_25fps.mp4"
               type="video/mp4"
             />
           </video>
         </div>
 
-        {/* Video Section with Scrolling Text */}
-        {/* <div className="relative w-full flex flex-col justify-center items-center py-32 overflow-hidden">
-          <div className="absolute inset-0 flex items-center justify-center overflow-hidden">
-            <p className="text-2xl md:text-6xl font-bold text-black opacity-30 animate-scroll whitespace-nowrap">
-              Radiant Elegance with Caratlane &nbsp; — &nbsp; Radiant Elegance with Caratlane &nbsp; — &nbsp;
-            </p>
-          <video
-            ref={videoRef}
-            muted
-            className={`${animateClass} object-cover transition-all duration-300 ease-in-out z-10`}
-            autoPlay
-            loop
-          >
-          </div>
-            <source src="public/9511253-hd_1366_720_25fps.mp4" type="video/mp4" />
-          </video>
-        </div> */}
         
       <div className="w-full">
       <Footer />
